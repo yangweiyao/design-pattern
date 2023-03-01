@@ -1,6 +1,8 @@
 # design-mode
 记录学习Head First-设计模式过程
 
+![image](https://user-images.githubusercontent.com/67896996/222059425-b43ed8db-a3db-4ca2-ba15-39b9c28de269.png)
+
 前言：<br>
 1. 原先我们在v1.0.1版本的需求，基于面向对象准则简单的设计了抽象父类Duck和不同产品的子类（红头鸭、绿头鸭等）。<br>
 2. 但在v.1.0.2版本【新增飞行行为】需求的时候，给父类Duck新增fly()方法时，我们发现了许多问题：比如橡皮鸭也会飞？<br>
