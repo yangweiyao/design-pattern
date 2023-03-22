@@ -1,6 +1,6 @@
-package com.yangwei.mode.strategy.behavior.specific;
+package com.yangweiyao.mode.strategy.behavior.specific;
 
-import com.yangwei.mode.strategy.behavior.FlyBehavior;
+import com.yangweiyao.mode.strategy.behavior.FlyBehavior;
 
 /**
  * 实现鸭子飞行

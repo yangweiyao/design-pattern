@@ -1,6 +1,8 @@
-package com.yangwei.mode.strategy;
+package com.yangweiyao.mode.strategy;
 
 import com.yangwei.mode.strategy.behavior.specific.*;
+import com.yangweiyao.mode.strategy.behavior.specific.FlyNoWay;
+import com.yangweiyao.mode.strategy.behavior.specific.Squeak;
 
 /**
  * 橡皮鸭

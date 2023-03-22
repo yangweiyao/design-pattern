@@ -1,7 +1,7 @@
-package com.yangwei.mode.strategy;
+package com.yangweiyao.mode.strategy;
 
-import com.yangwei.mode.strategy.behavior.specific.FlyNoWay;
-import com.yangwei.mode.strategy.behavior.specific.MuteQuack;
+import com.yangweiyao.mode.strategy.behavior.specific.FlyNoWay;
+import com.yangweiyao.mode.strategy.behavior.specific.MuteQuack;
 
 /**
  * 木头假鸭，不会飞也不会叫

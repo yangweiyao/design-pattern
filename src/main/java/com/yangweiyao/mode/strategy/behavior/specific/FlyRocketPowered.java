@@ -1,6 +1,6 @@
-package com.yangwei.mode.strategy.behavior.specific;
+package com.yangweiyao.mode.strategy.behavior.specific;
 
-import com.yangwei.mode.strategy.behavior.FlyBehavior;
+import com.yangweiyao.mode.strategy.behavior.FlyBehavior;
 
 public class FlyRocketPowered implements FlyBehavior {
     @Override

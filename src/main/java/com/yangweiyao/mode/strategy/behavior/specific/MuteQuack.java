@@ -1,6 +1,6 @@
-package com.yangwei.mode.strategy.behavior.specific;
+package com.yangweiyao.mode.strategy.behavior.specific;
 
-import com.yangwei.mode.strategy.behavior.QuackBehavior;
+import com.yangweiyao.mode.strategy.behavior.QuackBehavior;
 
 /**
  * 什么都不用做，不会叫
