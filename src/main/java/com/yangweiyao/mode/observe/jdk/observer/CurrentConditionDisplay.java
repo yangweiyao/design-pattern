@@ -1,7 +1,7 @@
-package com.yangwei.mode.observe.jdk.observer;
+package com.yangweiyao.mode.observe.jdk.observer;
 
-import com.yangwei.mode.observe.customize.DisplayElement;
-import com.yangwei.mode.observe.jdk.WeatherData;
+import com.yangweiyao.mode.observe.customize.DisplayElement;
+import com.yangweiyao.mode.observe.jdk.WeatherData;
 
 import java.util.Observable;
 import java.util.Observer;

@@ -1,8 +1,8 @@
-package com.yangwei.mode.observe.customize.observer;
+package com.yangweiyao.mode.observe.customize.observer;
 
-import com.yangwei.mode.observe.customize.DisplayElement;
-import com.yangwei.mode.observe.customize.Observer;
-import com.yangwei.mode.observe.customize.Subject;
+import com.yangweiyao.mode.observe.customize.DisplayElement;
+import com.yangweiyao.mode.observe.customize.Observer;
+import com.yangweiyao.mode.observe.customize.Subject;
 
 public class CurrentConditionDisplay implements Observer, DisplayElement {
 

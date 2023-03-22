@@ -1,4 +1,4 @@
-package com.yangwei.mode.observe.customize;
+package com.yangweiyao.mode.observe.customize;
 
 public interface Observer {
 
