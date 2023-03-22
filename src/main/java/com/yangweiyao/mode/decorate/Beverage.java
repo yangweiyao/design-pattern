@@ -1,4 +1,4 @@
-package com.yangwei.mode.decorate;
+package com.yangweiyao.mode.decorate;
 
 /**
  * <p>
