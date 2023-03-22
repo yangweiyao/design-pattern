@@ -1,4 +1,4 @@
-package com.yangwei.mode.singleton;
+package com.yangweiyao.mode.singleton;
 
 /**
  * @Author yangweiyao
