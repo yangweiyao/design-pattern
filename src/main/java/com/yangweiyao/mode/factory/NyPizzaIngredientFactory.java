@@ -1,7 +1,5 @@
 package com.yangweiyao.mode.factory;
 
-import com.yangwei.mode.factory.product.*;
-import com.yangwei.mode.factory.product.ingredient.*;
 import com.yangweiyao.mode.factory.product.ingredient.veggies.Garlic;
 import com.yangweiyao.mode.factory.product.ingredient.veggies.Mushroom;
 import com.yangweiyao.mode.factory.product.ingredient.veggies.Onion;

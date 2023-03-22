@@ -1,6 +1,5 @@
 package com.yangweiyao.mode.factory;
 
-import com.yangwei.mode.factory.product.*;
 import com.yangweiyao.mode.factory.product.*;
 
 import java.util.List;
