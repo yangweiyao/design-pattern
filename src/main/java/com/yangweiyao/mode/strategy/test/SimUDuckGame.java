@@ -1,6 +1,5 @@
 package com.yangweiyao.mode.strategy.test;
 
-import com.yangwei.mode.strategy.*;
 import com.yangweiyao.mode.strategy.*;
 import com.yangweiyao.mode.strategy.behavior.specific.FlyRocketPowered;
 
