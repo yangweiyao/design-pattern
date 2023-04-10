@@ -1,4 +1,4 @@
-package com.yangweiyao.mode.iterator;
+package com.yangweiyao.pattern.iterator;
 
 import java.util.Iterator;
 import java.util.List;

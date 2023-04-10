@@ -1,6 +1,6 @@
-package com.yangweiyao.mode.iterator.iterator;
+package com.yangweiyao.pattern.iterator.iterator;
 
-import com.yangweiyao.mode.iterator.MenuItem;
+import com.yangweiyao.pattern.iterator.MenuItem;
 
 import java.util.Iterator;
 

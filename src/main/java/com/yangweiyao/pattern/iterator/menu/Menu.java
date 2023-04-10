@@ -1,7 +1,7 @@
-package com.yangweiyao.mode.iterator.menu;
+package com.yangweiyao.pattern.iterator.menu;
 
-import com.yangweiyao.mode.iterator.AbstractMenuItem;
-import com.yangweiyao.mode.iterator.MenuItemCollection;
+import com.yangweiyao.pattern.iterator.AbstractMenuItem;
+import com.yangweiyao.pattern.iterator.MenuItemCollection;
 
 import java.util.ArrayList;
 import java.util.List;

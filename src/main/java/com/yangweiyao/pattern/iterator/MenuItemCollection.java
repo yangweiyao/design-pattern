@@ -1,4 +1,4 @@
-package com.yangweiyao.mode.iterator;
+package com.yangweiyao.pattern.iterator;
 
 public interface MenuItemCollection {
 

@@ -1,12 +1,12 @@
-package com.yangweiyao.mode.iterator.test;
+package com.yangweiyao.pattern.iterator.test;
 
-import com.yangweiyao.mode.iterator.Menu;
-import com.yangweiyao.mode.iterator.MenuItem;
-import com.yangweiyao.mode.iterator.MenuItemCollection;
-import com.yangweiyao.mode.iterator.Waitress;
-import com.yangweiyao.mode.iterator.menu.CafeMenu;
-import com.yangweiyao.mode.iterator.menu.DinerMenu;
-import com.yangweiyao.mode.iterator.menu.PancakeHouseMenu;
+import com.yangweiyao.pattern.iterator.Menu;
+import com.yangweiyao.pattern.iterator.MenuItem;
+import com.yangweiyao.pattern.iterator.MenuItemCollection;
+import com.yangweiyao.pattern.iterator.Waitress;
+import com.yangweiyao.pattern.iterator.menu.CafeMenu;
+import com.yangweiyao.pattern.iterator.menu.DinerMenu;
+import com.yangweiyao.pattern.iterator.menu.PancakeHouseMenu;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,15 +29,15 @@ public class MenuTestDrive {
         waitress.printMenu();
 
         System.out.println("\n====== 组合模式 ======");
-        MenuItemCollection allMenus = new com.yangweiyao.mode.iterator.menu.Menu("所有菜单", "所有菜单明细");
+        MenuItemCollection allMenus = new Menu("所有菜单", "所有菜单明细");
 
-        MenuItemCollection pancakeHouseMenu = new com.yangweiyao.mode.iterator.menu.Menu("煎饼菜单", "小吃类");
+        MenuItemCollection pancakeHouseMenu = new Menu("煎饼菜单", "小吃类");
         allMenus.add(pancakeHouseMenu);
 
-        MenuItemCollection dinerMenu = new com.yangweiyao.mode.iterator.menu.Menu("面食菜单", "汤粉类");
+        MenuItemCollection dinerMenu = new Menu("面食菜单", "汤粉类");
         allMenus.add(dinerMenu);
 
-        MenuItemCollection cafeMenu = new com.yangweiyao.mode.iterator.menu.Menu("咖啡菜单", "甜食类");
+        MenuItemCollection cafeMenu = new Menu("咖啡菜单", "甜食类");
         cafeMenu.add(new MenuItem("浓缩咖啡", "双倍浓缩", false, 15));
         allMenus.add(cafeMenu);
 
