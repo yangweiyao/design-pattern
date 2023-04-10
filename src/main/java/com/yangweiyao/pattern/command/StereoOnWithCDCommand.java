@@ -1,6 +1,6 @@
-package com.yangweiyao.command;
+package com.yangweiyao.pattern.command;
 
-import com.yangweiyao.command.product.Stereo;
+import com.yangweiyao.pattern.command.product.Stereo;
 
 /**
  * @Author yangweiyao

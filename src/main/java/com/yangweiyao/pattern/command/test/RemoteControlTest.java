@@ -1,8 +1,9 @@
-package com.yangweiyao.command.test;
+package com.yangweiyao.pattern.command.test;
 
 import com.yangweiyao.command.*;
-import com.yangweiyao.command.product.Light;
-import com.yangweiyao.command.product.Stereo;
+import com.yangweiyao.pattern.command.*;
+import com.yangweiyao.pattern.command.product.Light;
+import com.yangweiyao.pattern.command.product.Stereo;
 
 /**
  * @Author yangweiyao

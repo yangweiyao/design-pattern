@@ -1,6 +1,6 @@
-package com.yangweiyao.command;
+package com.yangweiyao.pattern.command;
 
-import com.yangweiyao.command.product.Light;
+import com.yangweiyao.pattern.command.product.Light;
 
 /**
  * @Author yangweiyao

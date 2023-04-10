@@ -1,4 +1,4 @@
-package com.yangweiyao.command;
+package com.yangweiyao.pattern.command;
 
 /**
  * @Author yangweiyao
