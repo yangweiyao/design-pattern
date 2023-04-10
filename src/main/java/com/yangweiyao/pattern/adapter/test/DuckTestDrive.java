@@ -1,10 +1,10 @@
-package com.yangweiyao.mode.adapter.test;
+package com.yangweiyao.pattern.adapter.test;
 
-import com.yangweiyao.mode.adapter.Duck;
-import com.yangweiyao.mode.adapter.Turkey;
-import com.yangweiyao.mode.adapter.animal.MallardDuck;
-import com.yangweiyao.mode.adapter.animal.WildTurkey;
-import com.yangweiyao.mode.adapter.support.TurkeyAdapter;
+import com.yangweiyao.pattern.adapter.Duck;
+import com.yangweiyao.pattern.adapter.Turkey;
+import com.yangweiyao.pattern.adapter.animal.MallardDuck;
+import com.yangweiyao.pattern.adapter.animal.WildTurkey;
+import com.yangweiyao.pattern.adapter.support.TurkeyAdapter;
 
 /**
  * @Author yangweiyao

@@ -1,4 +1,4 @@
-package com.yangweiyao.mode.adapter;
+package com.yangweiyao.pattern.adapter;
 
 public interface Duck {
 

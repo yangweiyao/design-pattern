@@ -1,6 +1,6 @@
-package com.yangweiyao.mode.adapter.animal;
+package com.yangweiyao.pattern.adapter.animal;
 
-import com.yangweiyao.mode.adapter.Turkey;
+import com.yangweiyao.pattern.adapter.Turkey;
 
 /**
  * @Author yangweiyao
