@@ -1,6 +1,6 @@
-package com.yangweiyao.mode.strategy.behavior.specific;
+package com.yangweiyao.pattern.strategy.behavior.specific;
 
-import com.yangweiyao.mode.strategy.behavior.QuackBehavior;
+import com.yangweiyao.pattern.strategy.behavior.QuackBehavior;
 
 /**
  * 实现鸭子吱吱叫

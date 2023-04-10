@@ -1,7 +1,7 @@
-package com.yangweiyao.mode.strategy;
+package com.yangweiyao.pattern.strategy;
 
-import com.yangweiyao.mode.strategy.behavior.FlyBehavior;
-import com.yangweiyao.mode.strategy.behavior.QuackBehavior;
+import com.yangweiyao.pattern.strategy.behavior.FlyBehavior;
+import com.yangweiyao.pattern.strategy.behavior.QuackBehavior;
 
 /**
  * 基于标准的OO技术，设计一个鸭子超类Duck

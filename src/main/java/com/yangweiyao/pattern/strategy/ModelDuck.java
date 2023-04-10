@@ -1,7 +1,7 @@
-package com.yangweiyao.mode.strategy;
+package com.yangweiyao.pattern.strategy;
 
-import com.yangweiyao.mode.strategy.behavior.specific.FlyNoWay;
-import com.yangweiyao.mode.strategy.behavior.specific.Quack;
+import com.yangweiyao.pattern.strategy.behavior.specific.FlyNoWay;
+import com.yangweiyao.pattern.strategy.behavior.specific.Quack;
 
 /**
  * v1.0.2 新增模型鸭产品

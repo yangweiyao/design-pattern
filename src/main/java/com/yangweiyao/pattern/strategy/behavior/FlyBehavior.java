@@ -1,4 +1,4 @@
-package com.yangweiyao.mode.strategy.behavior;
+package com.yangweiyao.pattern.strategy.behavior;
 
 /**
  * <p>

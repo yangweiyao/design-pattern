@@ -1,7 +1,7 @@
-package com.yangweiyao.mode.strategy.test;
+package com.yangweiyao.pattern.strategy.test;
 
-import com.yangweiyao.mode.strategy.*;
-import com.yangweiyao.mode.strategy.behavior.specific.FlyRocketPowered;
+import com.yangweiyao.pattern.strategy.*;
+import com.yangweiyao.pattern.strategy.behavior.specific.FlyRocketPowered;
 
 /**
  * SimUDuckGame界面

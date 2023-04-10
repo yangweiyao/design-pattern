@@ -1,7 +1,7 @@
-package com.yangweiyao.mode.strategy;
+package com.yangweiyao.pattern.strategy;
 
-import com.yangweiyao.mode.strategy.behavior.specific.FlyWithWings;
-import com.yangweiyao.mode.strategy.behavior.specific.Quack;
+import com.yangweiyao.pattern.strategy.behavior.specific.FlyWithWings;
+import com.yangweiyao.pattern.strategy.behavior.specific.Quack;
 
 /**
  * 红头鸭
