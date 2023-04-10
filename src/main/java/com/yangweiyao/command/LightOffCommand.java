@@ -1,27 +1,27 @@
-package com.yangweiyao.mode.command;
+package com.yangweiyao.command;
 
-import com.yangweiyao.mode.command.product.Light;
+import com.yangweiyao.command.product.Light;
 
 /**
  * @Author yangweiyao
  * @CreateTime 2023-03-22 15:54
  * @Description
  **/
-public class LightOnCommand implements Command {
+public class LightOffCommand implements Command {
 
     private final Light light;
 
-    public LightOnCommand(Light light) {
+    public LightOffCommand(Light light) {
         this.light = light;
     }
 
     @Override
     public void execute() {
-        light.on();
+        light.off();
     }
 
     @Override
     public void undo() {
-        light.off();
+        light.on();
     }
 }
