@@ -1,4 +1,4 @@
-package com.yangweiyao.mode.facade.component;
+package com.yangweiyao.pattern.facade.component;
 
 /**
  * @Author yangweiyao

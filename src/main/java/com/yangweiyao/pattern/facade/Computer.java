@@ -1,6 +1,7 @@
-package com.yangweiyao.mode.facade;
+package com.yangweiyao.pattern.facade;
 
 import com.yangweiyao.mode.facade.component.*;
+import com.yangweiyao.pattern.facade.component.*;
 
 /**
  * @Author yangweiyao

@@ -1,6 +1,6 @@
-package com.yangweiyao.mode.facade.test;
+package com.yangweiyao.pattern.facade.test;
 
-import com.yangweiyao.mode.facade.Computer;
+import com.yangweiyao.pattern.facade.Computer;
 
 /**
  * @Author yangweiyao
