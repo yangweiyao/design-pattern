@@ -1,7 +1,7 @@
-package com.yangweiyao.mode.decorate.condiments;
+package com.yangweiyao.pattern.decorate.condiments;
 
-import com.yangweiyao.mode.decorate.Beverage;
-import com.yangweiyao.mode.decorate.CondimentDecorator;
+import com.yangweiyao.pattern.decorate.Beverage;
+import com.yangweiyao.pattern.decorate.CondimentDecorator;
 
 /**
  * @Version v1.0.2

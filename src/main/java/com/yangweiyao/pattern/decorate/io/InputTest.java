@@ -1,4 +1,4 @@
-package com.yangweiyao.mode.decorate.io;
+package com.yangweiyao.pattern.decorate.io;
 
 import java.io.*;
 import java.nio.file.Files;

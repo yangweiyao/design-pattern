@@ -1,6 +1,6 @@
-package com.yangweiyao.mode.decorate.beverages;
+package com.yangweiyao.pattern.decorate.beverages;
 
-import com.yangweiyao.mode.decorate.Beverage;
+import com.yangweiyao.pattern.decorate.Beverage;
 
 /**
  * @Version v1.0.1

@@ -1,4 +1,4 @@
-package com.yangweiyao.mode.decorate;
+package com.yangweiyao.pattern.decorate;
 
 /**
  * 1. CondimentDecorator要扩展Beverage，需继承

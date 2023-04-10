@@ -1,10 +1,10 @@
-package com.yangweiyao.mode.decorate.test;
+package com.yangweiyao.pattern.decorate.test;
 
-import com.yangweiyao.mode.decorate.Beverage;
-import com.yangweiyao.mode.decorate.beverages.Espresso;
-import com.yangweiyao.mode.decorate.condiments.MoCha;
-import com.yangweiyao.mode.decorate.condiments.Soy;
-import com.yangweiyao.mode.decorate.condiments.Whip;
+import com.yangweiyao.pattern.decorate.Beverage;
+import com.yangweiyao.pattern.decorate.beverages.Espresso;
+import com.yangweiyao.pattern.decorate.condiments.MoCha;
+import com.yangweiyao.pattern.decorate.condiments.Soy;
+import com.yangweiyao.pattern.decorate.condiments.Whip;
 
 public class StarBuzzCoffee {
 
