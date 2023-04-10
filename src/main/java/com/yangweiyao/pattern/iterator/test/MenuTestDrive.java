@@ -29,15 +29,15 @@ public class MenuTestDrive {
         waitress.printMenu();
 
         System.out.println("\n====== 组合模式 ======");
-        MenuItemCollection allMenus = new Menu("所有菜单", "所有菜单明细");
+        MenuItemCollection allMenus = new com.yangweiyao.pattern.iterator.menu.Menu("总菜单", "所有菜单");
 
-        MenuItemCollection pancakeHouseMenu = new Menu("煎饼菜单", "小吃类");
+        MenuItemCollection pancakeHouseMenu = new com.yangweiyao.pattern.iterator.menu.Menu("煎饼菜单", "小吃类");
         allMenus.add(pancakeHouseMenu);
 
-        MenuItemCollection dinerMenu = new Menu("面食菜单", "汤粉类");
+        MenuItemCollection dinerMenu = new com.yangweiyao.pattern.iterator.menu.Menu("面食菜单", "汤粉类");
         allMenus.add(dinerMenu);
 
-        MenuItemCollection cafeMenu = new Menu("咖啡菜单", "甜食类");
+        MenuItemCollection cafeMenu = new com.yangweiyao.pattern.iterator.menu.Menu("咖啡菜单", "甜食类");
         cafeMenu.add(new MenuItem("浓缩咖啡", "双倍浓缩", false, 15));
         allMenus.add(cafeMenu);
 
