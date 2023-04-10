@@ -1,7 +1,7 @@
-package com.yangweiyao.mode.observe.customize.test;
+package com.yangweiyao.pattern.observe.customize.test;
 
-import com.yangweiyao.mode.observe.customize.WeatherData;
-import com.yangweiyao.mode.observe.customize.observer.CurrentConditionDisplay;
+import com.yangweiyao.pattern.observe.customize.WeatherData;
+import com.yangweiyao.pattern.observe.customize.observer.CurrentConditionDisplay;
 
 public class WeatherStation {
 

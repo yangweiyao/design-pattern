@@ -1,7 +1,7 @@
-package com.yangweiyao.mode.observe.jdk.test;
+package com.yangweiyao.pattern.observe.jdk.test;
 
-import com.yangweiyao.mode.observe.jdk.WeatherData;
-import com.yangweiyao.mode.observe.jdk.observer.CurrentConditionDisplay;
+import com.yangweiyao.pattern.observe.jdk.WeatherData;
+import com.yangweiyao.pattern.observe.jdk.observer.CurrentConditionDisplay;
 
 /**
  * v1.0.2 基于jdk提供的观察者模式实现

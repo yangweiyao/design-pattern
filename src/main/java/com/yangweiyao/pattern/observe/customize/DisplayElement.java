@@ -1,4 +1,4 @@
-package com.yangweiyao.mode.observe;
+package com.yangweiyao.pattern.observe.customize;
 
 public interface DisplayElement {
 
