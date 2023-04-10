@@ -1,6 +1,6 @@
-package com.yangweiyao.mode.template.beverage;
+package com.yangweiyao.pattern.template.beverage;
 
-import com.yangweiyao.mode.template.AbstractCaffeineBeverage;
+import com.yangweiyao.pattern.template.AbstractCaffeineBeverage;
 
 /**
  * @Author yangweiyao

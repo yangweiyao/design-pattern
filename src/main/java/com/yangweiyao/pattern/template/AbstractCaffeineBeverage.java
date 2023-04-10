@@ -1,4 +1,4 @@
-package com.yangweiyao.mode.template;
+package com.yangweiyao.pattern.template;
 
 import java.util.Scanner;
 
