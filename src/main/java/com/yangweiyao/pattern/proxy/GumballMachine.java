@@ -1,12 +1,17 @@
-package com.yangweiyao.pattern.state;
+package com.yangweiyao.pattern.proxy;
+
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 
 /**
  * @Author yangweiyao
  * @CreateTime 2023-04-11 08:02
  * @Description 糖果机 新需求：10个人里有1个人免费得到糖果（即：赢家最后可以得到两颗糖果）
  **/
-public class GumballMachine_V2 {
+public class GumballMachine
+        extends UnicastRemoteObject implements GumballMachineRemote {
 
+    private String location;
 
     private State soldOutState;
     private State noQuarterState;
@@ -19,7 +24,7 @@ public class GumballMachine_V2 {
     /** 糖果数量 */
     private int count;
 
-    public GumballMachine_V2(int numberGumballs) {
+    public GumballMachine(int numberGumballs) throws RemoteException {
         soldState = new SoldState(this);
         noQuarterState = new NoQuarterState(this);
         hasQuarterState = new HasQuarterState(this);
@@ -31,6 +36,11 @@ public class GumballMachine_V2 {
         } else {
             state = soldOutState;
         }
+    }
+
+    public GumballMachine(int numberGumballs, String location) throws RemoteException {
+        this(numberGumballs);
+        this.location = location;
     }
 
     /**
@@ -115,11 +125,7 @@ public class GumballMachine_V2 {
         this.count = count;
     }
 
-    @Override
-    public String toString() {
-        return "GumballMachine_V2{" +
-                "state=" + state.getClass().getName() +
-                ", count=" + count +
-                '}';
+    public String getLocation() {
+        return location;
     }
 }

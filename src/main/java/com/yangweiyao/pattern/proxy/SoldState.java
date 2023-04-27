@@ -1,4 +1,7 @@
-package com.yangweiyao.pattern.state;
+package com.yangweiyao.pattern.proxy;
+
+import com.yangweiyao.pattern.proxy.GumballMachine;
+import com.yangweiyao.pattern.proxy.State;
 
 /**
  * @Author yangweiyao
@@ -7,10 +10,10 @@ package com.yangweiyao.pattern.state;
  **/
 public class SoldState implements State {
 
-    private final GumballMachine_V2 gumballMachine_v2;
+    private final transient GumballMachine gumballMachine_;
 
-    public SoldState(GumballMachine_V2 gumballMachine_v2) {
-        this.gumballMachine_v2 = gumballMachine_v2;
+    public SoldState(GumballMachine gumballMachine_) {
+        this.gumballMachine_ = gumballMachine_;
     }
 
     @Override
@@ -30,12 +33,12 @@ public class SoldState implements State {
 
     @Override
     public void dispense() {
-        gumballMachine_v2.releaseBall();
-        gumballMachine_v2.setState(gumballMachine_v2.getCount() > 0 ?
-                gumballMachine_v2.getNoQuarterState() : gumballMachine_v2.getSoldOutState());
+        gumballMachine_.releaseBall();
+        gumballMachine_.setState(gumballMachine_.getCount() > 0 ?
+                gumballMachine_.getNoQuarterState() : gumballMachine_.getSoldOutState());
     }
 
-    public GumballMachine_V2 getGumballMachine_v2() {
-        return gumballMachine_v2;
+    public GumballMachine getGumballMachine_v2() {
+        return gumballMachine_;
     }
 }

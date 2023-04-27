@@ -1,4 +1,5 @@
-package com.yangweiyao.pattern.state;
+package com.yangweiyao.pattern.proxy;
+
 
 /**
  * @Author yangweiyao
@@ -7,16 +8,16 @@ package com.yangweiyao.pattern.state;
  **/
 public class NoQuarterState implements State {
 
-    private final GumballMachine_V2 gumballMachine_v2;
+    private final transient GumballMachine gumballMachine_;
 
-    public NoQuarterState(GumballMachine_V2 gumballMachine_v2) {
-        this.gumballMachine_v2 = gumballMachine_v2;
+    public NoQuarterState(GumballMachine gumballMachine_) {
+        this.gumballMachine_ = gumballMachine_;
     }
 
     @Override
     public void insertQuarter() {
         System.out.println("投币成功, 推动杆子就可以得到糖果啦");
-        gumballMachine_v2.setState(gumballMachine_v2.getHasQuarterState());
+        gumballMachine_.setState(gumballMachine_.getHasQuarterState());
     }
 
     @Override
